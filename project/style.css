@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #555555;
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  /* padding: 20px; */
+}
+
+nav {
+  /* background-color: #333; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+li {
+  margin-bottom: 10px;
+  text-align: left;
+  width: 45%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+hr {
+  margin: 20px;
+}
+
+.nav-bar {
+  background-color: #333;
+  color: #f4f4f4;
+  padding: 10px;
+}
+
+.nav-bar:hover {
+  background-color: #030361;
+}
+
+#portrait-index {
+  width: 200px;
+  border: 1px #333 solid;
+  border-radius: 100%;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#portrait-index:hover {
+  transform: scale(1.02);
+}
+
+.name-index {
+  margin-top: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  color: #333;
+  /* text-shadow: 2px 2px 2px #cccccc; */
+}
+
+#info-index {
+  margin-top: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-portf {
+  object-fit: cover;
+  width: 160px;
+  height: 160px;
+  border: 1px #333 solid;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.img-portf:hover {
+  transform: scale(1.5);
+}
+
+.portf-logos {
+  width: 70px;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.img-contact {
+  width: 55px;
+  margin: 5px;
+  padding: 5px;
+}
+
+#email-text-cont,
+#phone-text-cont {
+  font-weight: bold;
+}
+
+/* #div-map-cont {
+  background-color: #333;
+  padding: 15px;
+  width: 67%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
+} */
+
+#map-contact {
+  margin-top: 5px;
+  border-radius: 1%;
+  /* border: 1px rgb(134, 134, 134) solid; */
+  /* box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  /* found at: https://coderwall.com/p/ehis_g/google-maps-iframe-in-black-and-white */
+}
