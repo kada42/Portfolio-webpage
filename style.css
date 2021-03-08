@@ -12,24 +12,22 @@ a {
 
 body {
   background-color: #f4f4f4;
-  color: #555555;
+  color: #555;
   width: 600px;
   text-align: center;
   margin: 0 auto;
-  /* padding: 20px; */
 }
 
 nav {
-  /* background-color: #333; */
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 15px;
 }
 
 li {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   text-align: left;
-  width: 45%;
+  width: 60%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -39,7 +37,7 @@ hr {
 }
 
 .nav-bar {
-  background-color: #333;
+  background-color: #332;
   color: #f4f4f4;
   padding: 10px;
 }
@@ -50,7 +48,7 @@ hr {
 
 #portrait-index {
   width: 200px;
-  border: 1px #333 solid;
+  border: 1px #332 solid;
   border-radius: 100%;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -63,11 +61,11 @@ hr {
   margin-top: 5px;
   font-family: "Roboto", sans-serif;
   font-size: 2.5rem;
-  color: #333;
-  /* text-shadow: 2px 2px 2px #cccccc; */
+  color: #332;
 }
 
 #info-index {
+  font-size: 1.05rem;
   margin-top: 10px;
   width: 90%;
   margin-left: auto;
@@ -106,21 +104,9 @@ hr {
   font-weight: bold;
 }
 
-/* #div-map-cont {
-  background-color: #333;
-  padding: 15px;
-  width: 67%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5px;
-  margin-bottom: 10px;
-} */
-
 #map-contact {
   margin-top: 5px;
   border-radius: 1%;
-  /* border: 1px rgb(134, 134, 134) solid; */
-  /* box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
