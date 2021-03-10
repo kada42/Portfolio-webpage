@@ -36,6 +36,10 @@ hr {
   margin: 20px;
 }
 
+h2 {
+  margin-bottom: 15px;
+}
+
 .nav-bar {
   background-color: #332;
   color: #f4f4f4;
